@@ -1,33 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T14:38:10.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Hxdk78NWrF5GCkN___8m" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-13T16:00:48.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="QfCYqdtzDkGeugulIZzk" version="24.2.5" type="github">
   <diagram name="Page-1" id="FJHfpxs8-qD7BqnM1reR">
     <mxGraphModel dx="678" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jBV0dDIjJ5WeaZwuXP1-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="140" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jBV0dDIjJ5WeaZwuXP1-1" target="9jBV0dDIjJ5WeaZwuXP1-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9jBV0dDIjJ5WeaZwuXP1-1" value="Données en CSV" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="120" height="120" as="geometry" />
+          <mxGeometry x="60" y="280" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jBV0dDIjJ5WeaZwuXP1-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="140" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jBV0dDIjJ5WeaZwuXP1-4" target="9jBV0dDIjJ5WeaZwuXP1-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-4" value="AWS Lambda" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="260" y="80" width="120" height="120" as="geometry" />
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-4" value="&lt;b&gt;AWS Lambda&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="105" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-7" value="Amazon S3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="480" y="80" width="120" height="120" as="geometry" />
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-7" value="Données stockées dans&lt;div&gt;&lt;b&gt;DynamoDB&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="430" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9jBV0dDIjJ5WeaZwuXP1-8" value="Service d&#39;éxécution des scripts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="45" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9jBV0dDIjJ5WeaZwuXP1-9" value="Service de stockage de données" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jBV0dDIjJ5WeaZwuXP1-10" target="9jBV0dDIjJ5WeaZwuXP1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-10" value="API S3 récupère les données en CSV" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="105" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-13" value="point d&#39;entrée" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jBV0dDIjJ5WeaZwuXP1-14" target="9jBV0dDIjJ5WeaZwuXP1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-14" value="Déclenchement d&#39;une fonction AWS Lambda" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="105" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-16" value="Exécution/&lt;div&gt;traitement du fichier&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="105" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jBV0dDIjJ5WeaZwuXP1-19" target="9jBV0dDIjJ5WeaZwuXP1-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-19" value="point de sortie" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="610" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-22" value="Objectif: stocke les données dans le cloud" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="585" y="530" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-23" value="Objectif: prend en charge un fichier CSV et le traite" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jBV0dDIjJ5WeaZwuXP1-24" target="9jBV0dDIjJ5WeaZwuXP1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-24" value="Récupération du fichier par téléchargement dans un compartiment S3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="595" y="275" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
