@@ -1,9 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T14:28:15.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.5" etag="mrre3HtBOAmXdlx1h9RE" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-13T14:38:10.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Hxdk78NWrF5GCkN___8m" version="24.2.5" type="github">
   <diagram name="Page-1" id="FJHfpxs8-qD7BqnM1reR">
-    <mxGraphModel>
+    <mxGraphModel dx="678" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jBV0dDIjJ5WeaZwuXP1-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-1" value="Données en CSV" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jBV0dDIjJ5WeaZwuXP1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-4" value="AWS Lambda" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-7" value="Amazon S3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-8" value="Service d&#39;éxécution des scripts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9jBV0dDIjJ5WeaZwuXP1-9" value="Service de stockage de données" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="480" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
